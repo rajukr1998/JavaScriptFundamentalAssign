@@ -1,0 +1,76 @@
+Q1.Explain the role of operators in JavaScript.Why are the essential in programming?
+
+Ans:-Operators in JavaScript are symbols that perform operations on operands. Operands can be
+variables, values, or expressions. Operators are essential in prorammin because they allow us to manipulate
+data and perform calculations
+They are essential in programming languages as it can be used to
+1 Perform Arithmetic operation.
+2 Assin operator.
+3 Compare Operator.
+4 Perform loical operations
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Ans:- Operators in JavaScript are cateorized based on their functionality into the followin roups:
+1.Arithmetic Operators: These operators perform mathematical operations on operands. Operands can be numbers or variables.
+2. Assignment Operators: These operators assin values to variables
+3. Comparison Operators: These operators compare two values and return a Boolean value (true or false).
+4. Logical Operators: These operators perform logical operations on Boolean values
+
+Q3. Differentiate between unary, and binary operators in JavaScript. Give examples of each.
+
+Ans:-Operators in JavaScript are categorized based on the number of operands they requireq into the
+
+following groups:
+Unary operatorso Unary operators operate on a single operand
+Binary operatorso Binary operators operate on two operands.
+Unary operators in JavaScript are:
+Unary Plus Operator ( + )
+Unary Minus Operator ( – )
+Unary Increment Operator ( ++ )
+Unary Decrement Operator ( — )
+Logical NOT Operator ( ! )
+Bitwise NOT Operator ( ~ )
+typeof Operator
+delete Operator
+void Operator
+
+Binary operators in JavaScript are:
++
+*
+/
+%
+==
+===
+!=
+!==
+>
+<
+>=
+<=
+&&
+||
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these
+concepts important?
+
+Precedence refers to the order in which operators are evaluated when multiple operators are present
+in an expression. Operators with higher precedence are executed first. For example, in the expression 3 + 5 * 2,
+multiplication (*) has higher precedence than addition (+), so the multiplication is performed first
+const result = 3 + 5 * 2; // The result will be 13, not 16 (if addition had
+higher precedence)
+Associativity refers to the order in which operators of the same precedence are evaluated. Some operators
+associate left to right, meaning they are evaluated from left to right. Others associate right to left, meaning they
+are evaluated from right to left.
+const result = 10 + 5 + 2; // The result will be 17 (evaluated as (10 + 5) + 2)
+
+Understanding precedence and associativity is important for severa2 reasonsa
+Correct Expresion Evaluation: Understanding the order of precedence ensures that expressions are
+evaluated correctly, preventing potential errors or unexpected results
+Predictable Code: When working with complex expressions, knowing the precedence and associativity
+allows developers to write code that behaves as intended, making it easier to reason about and maintain
+Debugging and TroubleShuting:-In case of unexpected results, knowing operator precedence and
+associativity helps in debugging and identifying the root cause of issues
+Optimizing Code:- Knowledge of precedence and associativity can be used to optimize code by avoiding
+unnecessary parentheses and ensuring efficient computation.
+
